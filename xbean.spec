@@ -1,6 +1,6 @@
 Name:           xbean
 Version:        3.13
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        Java plugin based web server
 License:        ASL 2.0
 URL:            http://geronimo.apache.org/xbean/
@@ -92,6 +92,9 @@ find -name pom.xml -exec sed -i "s|<artifactId>cglib-nodep</artifactId>|<artifac
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.13-6
+- Mass rebuild 2013-12-27
+
 * Thu Nov  7 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 3.13-5
 - Add patch for XBEAN-255
 
